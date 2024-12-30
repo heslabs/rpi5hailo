@@ -1,7 +1,11 @@
-# Raspberry Pi 5 and Hailo 8L
+# Raspberry Pi 5 and Hailo 8/8L
 
 ---
-### Prepare Hardware
+### Raspberry Pi 5 and Hailo 8L (13TOPS)
+<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=350>
+
+---
+### Raspberry Pi 5 and Hailo 8 (26TOPS)
 <img src="https://github.com/user-attachments/assets/8c251980-c6b1-4653-8229-52147943389e" width=600>
 
 ---
@@ -19,10 +23,6 @@ lspci
 ---
 ## Resource
 
-<img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
-
----
-
 * GitHub: Hailo Raspberry Pi 5 Examples
     * https://github.com/hailo-ai/hailo-rpi5-examples
 * Hailo RPi5 Basic Pipelines
@@ -32,4 +32,6 @@ lspci
     * Youtube: https://www.youtube.com/watch?v=CHxg7qWTMYw
 * Raspberry Pi:Install AI kit on RPi5  
     * https://www.raspberrypi.com/documentation/accessories/ai-kit.html
- 
+
+ ---
+ <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
