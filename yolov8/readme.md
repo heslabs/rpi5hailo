@@ -14,7 +14,7 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 | Model | Size | mAP | CPU@ONNX | A100 TensorRT | RPI5+HAILO8 |
 |:-:|:-|-:|-:|-:|-:|
 | YOLOv8n | 640x640 | 37.3 | 80.4ms, 12.4fps | 0.99ms, 1,010.1fps | |
-| YOLOv8s | 640x640 | 44.9| 128.4ms, 7.8fps | 1.2ms, 833.3fps | |
+| YOLOv8s | 640x640 | 44.9| 128.4ms, 7.8fps | 1.20ms, 833.3fps | |
 | YOLOv8m | 640x640 | 50.2 | 237.4ms, 4.2fps | 1.83ms, 546.4fps | |
 
 ---
