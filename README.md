@@ -3,9 +3,14 @@
 
 ---
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
-<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>   
+<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>
+
+* Get Raspberry Pi AI Kit [[Github]](https://github.com/heslabs/rpi5hailo/tree/main/rpi5_aikit)
 
 ---
+## Install AI kit on RPi5
+* Install AI kit on RPi5 [[Github]](https://github.com/heslabs/rpi5hailo/tree/main/install_hailo)
+  
 ### Download hailo software on hailo website
 * Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
      * https://community.hailo.ai/
