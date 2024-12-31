@@ -4,7 +4,7 @@
 ## Prepare Hardware
 
 ---
-### Raspberry Pi 5 and Hailo 8L (13TOPS) or Hailo 8 (26TOPS)
+### Raspberry Pi 5 and Hailo 8L (13TOPS)
 <img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>   
 
 ---
