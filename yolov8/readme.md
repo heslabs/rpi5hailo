@@ -7,11 +7,12 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 ---
 <img src="https://github.com/user-attachments/assets/ba224e0a-5d37-4852-ab28-9378f0fca840" width=1000>
 
+---
+## Performance
 
 ---
-
 | Model | Size | mAP | CPU@ONNX | A100 TensorRT | RPI5+HAILO8 |
-|-------|------|-----|----------|---------------|-------------|
+|:-:|:-|-:|-:|-:|-:|
 | YOLOv8n | 640x640 | 37.3 | 80.4ms | 0.99ms | |
 | YOLOv8n | 640x640 | 37.3 | 12.4fps | 1,010.1fps | |
 | YOLOv8s | 640x640 | 44.9| 128.4ms | 1.2ms | |
@@ -20,13 +21,13 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 | YOLOv8m | 640x640 | 50.2 | 4.2fps | 546.4fps | |
 
 ---
-## Performance
-
-### RPI5 with Halio AI processor
+### RPI5 with Halio 8 AI processor (26TOPS)
 * Run multistream detection inference - Benchmark Result [[SeeedStudio]](https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8/)
-* All the results are based on inference with a model input size of 640x640, batch size is 8, and a video resolution of 1280x760, which is 720p.
+* All the results are based on inference with a model **YOLOv5** input size of 640x640, batch size is 8, and a video resolution of 1280x760, which is 720p.
 
 <img src="https://github.com/user-attachments/assets/a974369c-58c3-4c0a-bcf4-28ef358a8b22" width=600>
+
+
 
 ---
 ### Performance: Detection (COCO)
