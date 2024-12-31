@@ -1,10 +1,8 @@
 # Raspberry Pi 5 and Hailo 8/8L
+ <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
 
 ---
-## Prepare Hardware
-
----
-### Raspberry Pi 5 and Hailo 8L (13TOPS)
+## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
 <img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>   
 
 ---
@@ -120,5 +118,4 @@ python basic_pipelines/instance_segmentation.py --help
 * Raspberry Pi:Install AI kit on RPi5  
     * https://www.raspberrypi.com/documentation/accessories/ai-kit.html
 
- ---
- <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
+
