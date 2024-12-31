@@ -11,10 +11,6 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 ## Performance
 
 ---
-### Performance: Classification (ImageNet)
-<img src="https://github.com/user-attachments/assets/a923b3d9-97f1-41fc-bd0d-cb208d1afc32" width=800>
-
----
 ### Performance: Detection (COCO)
 <img src="https://github.com/user-attachments/assets/571c34e5-8c3c-4951-8737-bbf462202a5a" width=800>
 
@@ -25,3 +21,7 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 ---
 ### Performance: Pose (COCO)
 <img src="https://github.com/user-attachments/assets/f45ef69a-b0d3-4de9-8cde-052be243f8ed" width=800>
+
+---
+### Performance: Classification (ImageNet)
+<img src="https://github.com/user-attachments/assets/a923b3d9-97f1-41fc-bd0d-cb208d1afc32" width=800>
