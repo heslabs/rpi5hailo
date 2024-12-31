@@ -30,7 +30,7 @@ lspci
 
 ---
 ### Hailo RPi5 Basic Pipelines
-https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/basic-pipelines.md#pose-estimation-example 
+[[Hailo-AI-GitHub]](https://github.com/hailo-ai/hailo-rpi5-examples)
  
 * Clone the repository and navigate to the repository directory:
 * Run the following script for quick installation
