@@ -1,4 +1,4 @@
-# Raspberry Pi 5 and Hailo 8/8L
+# Raspberry Pi 5 and Hailo
  <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
 
 ---
