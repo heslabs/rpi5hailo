@@ -1,12 +1,11 @@
 # Raspberry Pi 5 and Hailo 8/8L
 
 ---
-### Raspberry Pi 5 and Hailo 8L (13TOPS)
-<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=350>
+## Prepare Hardware
 
 ---
-### Raspberry Pi 5 and Hailo 8 (26TOPS)
-<img src="https://github.com/user-attachments/assets/8c251980-c6b1-4653-8229-52147943389e" width=600>
+### Raspberry Pi 5 and Hailo 8L (13TOPS) or Hailo 8 (26TOPS)
+<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>   <img src="https://github.com/user-attachments/assets/8c251980-c6b1-4653-8229-52147943389e" width=500>
 
 
 ---
@@ -31,23 +30,17 @@ lspci
 0000:01:00.0 Co-processor: Hailo Technologies Ltd. Hailo-8 AI Processor (rev 01)
 0001:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
 0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
-
 ```
 
 ---
 ### Hailo RPi5 Basic Pipelines
 https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/basic-pipelines.md#pose-estimation-example 
  
-* Clone the Repository
+* Clone the repository and navigate to the repository directory:
+* Run the following script for quick installation
 ```
 git clone https://github.com/hailo-ai/hailo-rpi5-examples.git
-```
-* Navigate to the repository directory:
-```
 cd hailo-rpi5-examples
-```
-* Quick Installation: Run the following script to automate the installation process:
-```
 ./install.sh
 ```
 
@@ -56,31 +49,26 @@ cd hailo-rpi5-examples
 This example demonstrates object detection using the YOLOv8s model for Hailo-8L (13 TOPS) and the YOLOv8m model for Hailo-8 (26 TOPS) by default. It also supports all models compiled with HailoRT NMS post process. Hailo's Non-Maximum Suppression (NMS) layer is integrated into the HEF file, allowing any detection network compiled with NMS to function with the same codebase.
 
 ####  Run the Example:
-* When opening a new terminal session, ensure you have sourced the environment setup script:
+* Opening a new terminal session and sourced the environment setup script
+* Run the detection example using Python script
+* To close the application, press Ctrl+C.
 ```
 source setup_env.sh
-```
-* Run the detection example:
-```
 python basic_pipelines/detection.py
 ```
-* To close the application, press Ctrl+C.
+
 ---
 * Using USB camera input: Detect the available camera using this script:
+* Run example using USB camera - Use the device found by the previous script:
+* For additional options, execute command with help option:
 ```
 python basic_pipelines/get_usb_camera.py
-```
-* Run example using USB camera - Use the device found by the previous script:
-```
 python basic_pipelines/detection.py --input /dev/video<X>
-```
-* For additional options, execute:
-```
 python basic_pipelines/detection.py --help
 ```
 
+---
 <img src="https://github.com/user-attachments/assets/302bc752-8eaf-4949-9307-cd2eee852d6a" width=450>
-
 
 
 ---
