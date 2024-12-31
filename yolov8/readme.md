@@ -11,13 +11,13 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 ## Performance
 
 ---
-| Model | Size | mAP | x86 CPU@ONNX | A100@TensorRT | RPI5+H8L(13T) | CA76@TFLite |
-|:-:|:-|-:|-:|-:|-:|-:|
-| Price | | | USD 800 | USD ~ | USD 180 | USD 80 | 
-| YOLOv8s/$ | | | 15 (0.6X) | | 455 (18X) | 25 (1X) |
-| YOLOv8n | 640x640 | 37.3 | 80.4ms, 12.4fps | 0.99ms, 1,010.1fps | | 2.5fps|
-| YOLOv8s | 640x640 | 44.9| 128.4ms, 7.8fps | 1.20ms, 833.3fps | 82fps | 2.0fps |
-| YOLOv8m | 640x640 | 50.2 | 237.4ms, 4.2fps | 1.83ms, 546.4fps | | |
+| Model | Size | mAP | x86 CPU@ONNX | A100@TensorRT | RPI5+H8L(13T) | CA76@TFLite | RTX4060 (12GB) |
+|:-:|:-|-:|-:|-:|-:|-:|-:|
+| Price | | | USD 800 | USD ~ | USD 180 | USD 80 | USD 1,500 |
+| YOLOv8s/$ | | | 15 (0.6X) | | 455 (18X) | 25 (1X) | 490 (19X) | 
+| YOLOv8n | 640x640 | 37.3 | 80.4ms, 12.4fps | 0.99ms, 1,010.1fps | | 2.5fps| 1.35ms, 740fps | 
+| YOLOv8s | 640x640 | 44.9| 128.4ms, 7.8fps | 1.20ms, 833.3fps | 82fps | 2.0fps | |
+| YOLOv8m | 640x640 | 50.2 | 237.4ms, 4.2fps | 1.83ms, 546.4fps | | | |
 
 ---
 ### RPI5 with Halio 8 AI processor (26TOPS)
@@ -25,6 +25,9 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 * All the results are based on inference with a model **YOLOv5** input size of 640x640, batch size is 8, and a video resolution of 1280x760, which is 720p.
 
 <img src="https://github.com/user-attachments/assets/a974369c-58c3-4c0a-bcf4-28ef358a8b22" width=600>
+
+
+
 
 ---
 #### YoloV8s object detection demo [[Raspberry forum]](https://forums.raspberrypi.com/viewtopic.php?t=373669)
@@ -35,6 +38,10 @@ Pi5 8GB with hailo PCIe gen2 41fps;
 Pi5 8GB with hailo PCIe gen3 82fps;
 CM4 4GB with hailo PCIe gen2 38fps.
 ```
+---
+### Yolov8n @ Consumer GPUs
+https://docs.ultralytics.com/integrations/tensorrt/#__tabbed_5_2
+<img src="https://github.com/user-attachments/assets/ffda0408-e6ab-461d-9f7a-b1c21dc66b71" width=800>
 
 ---
 ### Performance: Detection (COCO)
