@@ -11,7 +11,7 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 ## Performance
 
 ---
-| Model | Size | mAP | x86 CPU@ONNX | A100 TensorRT | RPI5+H8L(13T) | CA76@TFLite |
+| Model | Size | mAP | x86 CPU@ONNX | A100@TensorRT | RPI5+H8L(13T) | CA76@TFLite |
 |:-:|:-|-:|-:|-:|-:|-:|
 | Price | | | USD 800 | USD ~ | USD 180 | USD 80 | 
 | YOLOv8n | 640x640 | 37.3 | 80.4ms, 12.4fps | 0.99ms, 1,010.1fps | | 2.5fps|
