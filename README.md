@@ -72,6 +72,46 @@ python basic_pipelines/detection.py --help
 
 
 ---
+### Pose Estimation Example
+This example demonstrates human pose estimation using the yolov8s_pose model for Hailo-8 Lite (H8l) and the yolov8m_pose model for Hailo-8 (H8)
+
+#### To Run the Example:
+* Opening a new terminal session andsourced the environment setup script
+* Run the example using Python script
+* To close the application, press Ctrl+C
+* For additional options, execute command with --help option
+```
+source setup_env.sh
+python basic_pipelines/pose_estimation.py
+```
+---
+* Run example using Pi camera
+```
+python basic_pipelines/pose_estimation.py --input rpi
+python basic_pipelines/pose_estimation.py --help
+```
+
+---
+<img src="https://github.com/user-attachments/assets/2f5edc26-8755-4cac-be16-02550d535664" width=450>
+
+---
+### Instance Segmentation Example
+This example demonstrates instance segmentation using the yolov5n_seg model for Hailo-8 Lite (H8l) and the yolov5m_seg model for Hailo-8 (H8).
+* Opening a new terminal session andsourced the environment setup script
+* Run the example using Python script
+* To close the application, press Ctrl+C
+* For additional options, execute command with --help option
+```
+source setup_env.sh
+python basic_pipelines/instance_segmentation.py
+python basic_pipelines/instance_segmentation.py --help
+```
+
+---
+<img src="https://github.com/user-attachments/assets/bf88d093-2b67-4215-8b3e-f07afd2d074a" width=450>
+
+
+---
 ## Resource
 
 * GitHub: Hailo Raspberry Pi 5 Examples
