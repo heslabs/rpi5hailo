@@ -23,7 +23,7 @@
      * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
 
 ---
-### Check PCIe interface
+### Check PCIe interface - Hailo-8 AI Processor
 ```
 lspci
 0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
