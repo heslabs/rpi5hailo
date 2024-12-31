@@ -12,7 +12,7 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 
 ---
 ### Performance: Detection (COCO)
-<img src="https://github.com/user-attachments/assets/571c34e5-8c3c-4951-8737-bbf462202a5a" width=800>
+<img src="https://github.com/user-attachments/assets/571c34e5-8c3c-4951-8737-bbf462202a5a" width=850>
 
 ---
 ### Performance: Segmentation (COCO)
