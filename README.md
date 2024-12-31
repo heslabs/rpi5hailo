@@ -110,6 +110,6 @@ python basic_pipelines/instance_segmentation.py --help
 * GitHub: Hailo Raspberry Pi 5 Examples [[Hailo-AI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples)
 * Hailo RPi5 Basic Pipelines [[Hailo-AI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/basic-pipelines.md)
 * Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8 [[SeeedStudio-WIKI]](https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8) [[Youtube]](https://www.youtube.com/watch?v=CHxg7qWTMYw)
-* Raspberry Pi:Install AI kit on RPi5 [[RaspberryPi]](https://www.raspberrypi.com/documentation/accessories/ai-kit.html)
+* Raspberry Pi:Install AI kit on RPi5 [[RaspberryPi-Website]](https://www.raspberrypi.com/documentation/accessories/ai-kit.html)
 
 
