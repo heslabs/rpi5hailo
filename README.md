@@ -5,8 +5,7 @@
 
 ---
 ### Raspberry Pi 5 and Hailo 8L (13TOPS) or Hailo 8 (26TOPS)
-<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>   <img src="https://github.com/user-attachments/assets/8c251980-c6b1-4653-8229-52147943389e" width=500>
-
+<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>   
 
 ---
 ### Download hailo software on hailo website
