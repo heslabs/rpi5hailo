@@ -9,9 +9,9 @@
 ---
 | Product | Price | Qty | Subtotal | NTD |
 |:-|-:|:-:|-:|-:|
-| Raspberry Pi 5 8GB | 77.5 | 1 | 77.5 | 2,534 |
-| Raspberry Pi AI Kit | 70.0 | 1 | 70.0 | 2,289 |
-| 27W USB-C power supply | 12.0 | 1 | 12.0 | 392 |
+| Raspberry Pi 5 8GB | 77.5 | 1 | 77.5 | 2,480 |
+| Raspberry Pi AI Kit | 70.0 | 1 | 70.0 | 2,240 |
+| 27W USB-C power supply | 12.0 | 1 | 12.0 | 384 |
 | SD Card 128GB  | 12.0 | 1 | 12.0 | 384 |
 | Subtotal ||| 171.5 | 5,488 | 
  
