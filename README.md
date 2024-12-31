@@ -1,4 +1,4 @@
-# Raspberry Pi 5 and Hailo AI Processor
+# Raspberry Pi 5 with M.2 Hailo AI Processor
  <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
 
 ---
