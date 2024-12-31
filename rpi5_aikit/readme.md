@@ -7,7 +7,7 @@
 * 27W USB-C PD Power Supply Black - US Version (SKU 106990428) $12.00 [[SeeedStudio]](https://www.seeedstudio.com/27W-USB-C-PD-Power-Supply-Black-US-Version-p-5812.html)
 
 ---
-| Product | Price | Qty | Subtotal | NTD |
+| Product | Price (USD) | Qty | Subtotal | Price (NTD) |
 |:-|-:|:-:|-:|-:|
 | Raspberry Pi 5 8GB | 77.5 | 1 | 77.5 | 2,480 |
 | Raspberry Pi AI Kit | 70.0 | 1 | 70.0 | 2,240 |
