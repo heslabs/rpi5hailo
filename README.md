@@ -5,12 +5,15 @@
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
 <img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>
 
-* Get Raspberry Pi AI Kit [[Github]](https://github.com/heslabs/rpi5hailo/tree/main/rpi5_aikit)
+* Get Raspberry Pi AI Kit [[Github-Page]](https://github.com/heslabs/rpi5hailo/tree/main/rpi5_aikit)
 
 ---
 ## Install AI kit on RPi5
-* Install AI kit on RPi5 [[Github]](https://github.com/heslabs/rpi5hailo/tree/main/install_hailo)
+* Install AI kit on RPi5 [[Github-Page]](https://github.com/heslabs/rpi5hailo/tree/main/install_hailo)
   
+### Installation guide
+* HailoRT v4.19.0 [[Hailo-Developer-Zone]](https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
+
 ### Download hailo software on hailo website
 * Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
      * https://community.hailo.ai/
@@ -20,8 +23,7 @@
 * HailoRT – Python package (whl) for Python 3.11, aarch64: 4.19.0, September 30, 2024	
 * HailoRT – Ubuntu package (deb) for arm64: 4.19.0, September 30, 2024	
 
-#### Installation guide
-* HailoRT v4.19.0 [[Hailo-Developer-Zone]](https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
+
 
 ---
 ### Check PCIe interface - Hailo-8 AI Processor
