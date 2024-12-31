@@ -55,8 +55,6 @@ This example demonstrates object detection using the YOLOv8s model for Hailo-8L 
 source setup_env.sh
 python basic_pipelines/detection.py
 ```
-
----
 * Using USB camera input: Detect the available camera using this script:
 * Run example using USB camera - Use the device found by the previous script:
 * For additional options, execute command with help option:
@@ -83,7 +81,6 @@ This example demonstrates human pose estimation using the yolov8s_pose model for
 source setup_env.sh
 python basic_pipelines/pose_estimation.py
 ```
----
 * Run example using Pi camera
 ```
 python basic_pipelines/pose_estimation.py --input rpi
