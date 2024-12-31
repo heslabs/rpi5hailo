@@ -16,8 +16,7 @@
 * HailoRT – Ubuntu package (deb) for arm64: 4.19.0, September 30, 2024	
 
 #### Installation guide
-* HailoRT v4.19.0
-     * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
+* HailoRT v4.19.0 [[Hailo-Developer-Zone]](https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
 
 ---
 ### Check PCIe interface - Hailo-8 AI Processor
