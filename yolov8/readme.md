@@ -5,7 +5,7 @@
 YOLOv8 is the latest iteration in the YOLO series of real-time object detectors, offering cutting-edge performance in terms of accuracy and speed. Building upon the advancements of previous YOLO versions, YOLOv8 introduces new features and optimizations that make it an ideal choice for various object detection tasks in a wide range of applications.
 
 ---
-<img src="https://github.com/user-attachments/assets/ba224e0a-5d37-4852-ab28-9378f0fca840" width=800>
+<img src="https://github.com/user-attachments/assets/ba224e0a-5d37-4852-ab28-9378f0fca840" width=1000>
 
 ---
 ## Performance
