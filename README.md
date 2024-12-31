@@ -121,5 +121,5 @@ python basic_pipelines/instance_segmentation.py --help
 * Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8 [[SeeedStudio-WIKI]](https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8) [[Youtube]](https://www.youtube.com/watch?v=CHxg7qWTMYw)
 * Raspberry Pi:Install AI kit on RPi5 [[RaspberryPi-Website]](https://www.raspberrypi.com/documentation/accessories/ai-kit.html)
 * YOLOv8 - Ultralytics [[Ultralytics]](https://docs.ultralytics.com/models/yolov8/)
-
+* Testing Raspberry Pi's AI Kit - 13 TOPS for $70 (2024.07) [[blog]](https://www.jeffgeerling.com/blog/2024/testing-raspberry-pis-ai-kit-13-tops-70)
 
