@@ -16,7 +16,7 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 | Price | | | USD 800 | USD ~ | USD 180 | USD 80 | USD 1,500 |
 | Power | | | 45W | > 100W |  8W |  5W | > 100W |
 | YOLOv8n | 640x640 | 37.3 | 80.4ms, 12.4fps | 0.99ms, 1,010.1fps | | 2.5fps| 1.35ms, 740fps | 
-| YOLOv8s | 640x640 | 44.9| 128.4ms, 7.8fps (2.9X) | 1.20ms, 833.3fps (416X) | 30fps (15X) | 2.0fps (1X) | ~ 610fps |
+| YOLOv8s | 640x640 | 44.9| 128.4ms, 7.8fps (2.9X) | 1.20ms, 833.3fps (416X) | 30fps (15X) | 2.0fps (1X) | ~ 610fps (305X) |
 | YOLOv8m | 640x640 | 50.2 | 237.4ms, 4.2fps | 1.83ms, 546.4fps | | | |
 
 ---
