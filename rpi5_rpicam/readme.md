@@ -1,6 +1,22 @@
-# Raspberry Pi - Camera software
+# Raspberry Pi Camera
 * https://www.raspberrypi.com/documentation/computers/camera_software.html
+* Picamera2 Python library [[PDF]](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
+  
+---
+## Install a Raspberry Pi camera
+https://www.raspberrypi.com/documentation/accessories/camera.html#install-a-raspberry-pi-camera
 
+---
+## Picamera2 Python library
+Picamera2 Python library [[PDF]](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf)
+
+* Picamera2 is a Python library that gives convenient access to the camera system of the Raspberry Pi.
+* It is designed for cameras connected with the flat ribbon cable directly to the connector on the Raspberry Pi itself, and not for other types of camera, although there is some limited support for USB cameras.
+
+<img src="https://github.com/user-attachments/assets/dce40d92-bb71-4135-bcda-cb75d9286b25" width=350>
+
+---
+## Raspberry Pi - Camera software
 ```
 $ rpicam-hello
 ```
