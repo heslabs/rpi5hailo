@@ -71,6 +71,14 @@ $ sudo apt install imx500-all
 
 <img src="https://github.com/user-attachments/assets/71f11c03-e0f2-47c7-9db3-68543fa94102" width=550>
 
+* Run the following script from the repository to run YOLOv8 object detection:
+```
+$ python imx500_object_detection_demo.py --model /usr/share/imx500-models/imx500_network_ssd_mobilenetv2_fpnlite_320x320_pp.rpk
+`
+* To try pose estimation in Picamera2, run the following script from the repository:
+```
+$ python imx500_pose_estimation_higherhrnet_demo.py
+```
 
 ---
 ### Increasing the amount of available CMA memory.
