@@ -63,9 +63,15 @@ python basic_pipelines/detection.py
 * Run example using USB camera - Use the device found by the previous script:
 * For additional options, execute command with help option:
 ```
-python basic_pipelines/get_usb_camera.py
-python basic_pipelines/detection.py --input /dev/video<X>
-python basic_pipelines/detection.py --help
+$ python basic_pipelines/get_usb_camera.py
+$ python basic_pipelines/detection.py --input /dev/video<X>
+$ python basic_pipelines/detection.py --help
+```
+* Example
+```
+$ python basic_pipelines/get_usb_camera.py
+USB cameras found on: /dev/video0
+$ python basic_pipelines/detection.py --input /dev/video0
 ```
 
 ---
@@ -82,13 +88,13 @@ This example demonstrates human pose estimation using the yolov8s_pose model for
 * To close the application, press Ctrl+C
 * For additional options, execute command with --help option
 ```
-source setup_env.sh
-python basic_pipelines/pose_estimation.py
+$ source setup_env.sh
+$ python basic_pipelines/pose_estimation.py
 ```
 * Run example using Pi camera
 ```
-python basic_pipelines/pose_estimation.py --input rpi
-python basic_pipelines/pose_estimation.py --help
+$ python basic_pipelines/pose_estimation.py --input rpi
+$ python basic_pipelines/pose_estimation.py --help
 ```
 
 ---
@@ -102,9 +108,9 @@ This example demonstrates instance segmentation using the yolov5n_seg model for 
 * To close the application, press Ctrl+C
 * For additional options, execute command with --help option
 ```
-source setup_env.sh
-python basic_pipelines/instance_segmentation.py
-python basic_pipelines/instance_segmentation.py --help
+$ source setup_env.sh
+$ python basic_pipelines/instance_segmentation.py
+$ python basic_pipelines/instance_segmentation.py --help
 ```
 
 ---
