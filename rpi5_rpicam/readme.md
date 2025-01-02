@@ -42,7 +42,7 @@ The following packages were automatically installed and are no longer required:
 ```
 rpicam-hello
 ```
-
+* BCM2712
 <img src="https://github.com/user-attachments/assets/784a5b2e-9001-400e-a6ab-fbda20655803" width=450>
 
 
