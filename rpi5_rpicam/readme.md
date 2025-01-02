@@ -60,6 +60,20 @@ X Error of failed request:  BadRequest (invalid request code or no such operatio
 ```
 
 ---
+## Sony IMX500: AI Camera
+https://www.raspberrypi.com/documentation/accessories/ai-camera.html#ai-camera
+  
+Install the IMX500 firmware
+The AI camera must download runtime firmware onto the IMX500 sensor during startup. To install these firmware files onto your Raspberry Pi, run the following command:
+```
+https://www.raspberrypi.com/documentation/accessories/ai-camera.html#ai-camera
+sudo apt install imx500-all
+```
+
+<img src="https://github.com/user-attachments/assets/71f11c03-e0f2-47c7-9db3-68543fa94102" width=650>
+
+
+---
 ### Increasing the amount of available CMA memory.
 * The default CMA size on Pi devices is: 256MB if the total system memory is less than or equal to 1GB, otherwise 320MB.
 * CMA memory is still available to the system when "regular" memory starts to run low, so increasing its size does not normally starve the rest of the operating system.
