@@ -28,7 +28,7 @@
 ---
 ### Check PCIe interface - Hailo-8 AI Processor
 ```
-lspci
+$ lspci
 0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
 0000:01:00.0 Co-processor: Hailo Technologies Ltd. Hailo-8 AI Processor (rev 01)
 0001:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
@@ -42,9 +42,9 @@ lspci
 * Clone the repository and navigate to the repository directory:
 * Run the following script for quick installation
 ```
-git clone https://github.com/hailo-ai/hailo-rpi5-examples.git
-cd hailo-rpi5-examples
-./install.sh
+$ git clone https://github.com/hailo-ai/hailo-rpi5-examples.git
+$ cd hailo-rpi5-examples
+$ ./install.sh
 ```
 
 ---
@@ -56,8 +56,8 @@ This example demonstrates object detection using the YOLOv8s model for Hailo-8L 
 * Run the detection example using Python script
 * To close the application, press Ctrl+C.
 ```
-source setup_env.sh
-python basic_pipelines/detection.py
+$ source setup_env.sh
+$ python basic_pipelines/detection.py
 ```
 * Using USB camera input: Detect the available camera using this script:
 * Run example using USB camera - Use the device found by the previous script:
