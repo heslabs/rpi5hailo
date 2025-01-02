@@ -66,11 +66,10 @@ https://www.raspberrypi.com/documentation/accessories/ai-camera.html#ai-camera
 Install the IMX500 firmware
 The AI camera must download runtime firmware onto the IMX500 sensor during startup. To install these firmware files onto your Raspberry Pi, run the following command:
 ```
-https://www.raspberrypi.com/documentation/accessories/ai-camera.html#ai-camera
-sudo apt install imx500-all
+$ sudo apt install imx500-all
 ```
 
-<img src="https://github.com/user-attachments/assets/71f11c03-e0f2-47c7-9db3-68543fa94102" width=650>
+<img src="https://github.com/user-attachments/assets/71f11c03-e0f2-47c7-9db3-68543fa94102" width=550>
 
 
 ---
