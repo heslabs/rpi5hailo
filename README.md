@@ -27,10 +27,11 @@ This installs the following dependencies:
 * Hailo Tappas core post-processing libraries
 * The rpicam-apps Hailo post-processing software demo stages
 
+
+
 ---
 ## Validate device
 ```
-$ lspci -m 
 $ hailortcli scan
 $ hailortcli fw-control identify
 ```
@@ -46,6 +47,16 @@ Device Architecture: HAILO8L
 Serial Number: HLDDLBB243900626
 Part Number: HM21LB1C2LAE
 Product Name: HAILO-8L AI ACC M.2 B+M KEY MODULE EXT TMP
+```
+
+---
+### Check PCIe interface - Hailo-8 AI Processor
+```
+$ lspci
+0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
+0000:01:00.0 Co-processor: Hailo Technologies Ltd. Hailo-8 AI Processor (rev 01)
+0001:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
+0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
 ```
 
 ---
@@ -68,25 +79,6 @@ $ sudo apt install hailo-tappas-core=3.29.1 hailort=4.18.0 hailo-dkms=4.18.0-2
 
 ```
 $ sudo apt-mark hold hailo-tappas-core hailort hailo-dkms
-```
-
----
-## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
-<img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>
- 
- 
-### Download hailo software on hailo website
-* Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
-     * https://community.hailo.ai/
-
----
-### Check PCIe interface - Hailo-8 AI Processor
-```
-$ lspci
-0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
-0000:01:00.0 Co-processor: Hailo Technologies Ltd. Hailo-8 AI Processor (rev 01)
-0001:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
-0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
 ```
 
 ---
