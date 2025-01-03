@@ -64,6 +64,7 @@ aarch64
 Run the following command to install only the PCIe driver:
 ```
 $ sudo dpkg --install hailort-pcie-driver_4.20.0_all.deb
+$ sudo dpkg --install hailort-pcie-driver_4.19.0_all.deb
 ```
 
 ---
@@ -71,6 +72,7 @@ $ sudo dpkg --install hailort-pcie-driver_4.20.0_all.deb
 ```
 $ sudo dpkg --install hailort_<version>_$(dpkg --print-architecture).deb
 $ sudo dpkg --install hailort_4.20.0_arm64.deb
+$ sudo dpkg --install hailort_4.19.0_arm64.deb
 ```
 PC restart is required after driver installation.
   
