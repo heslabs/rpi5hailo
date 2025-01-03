@@ -20,11 +20,11 @@
 
 #### Download packages
  
-| Package | Ver | Date |
+| HailoRT Package | Version | Date |
 |:-|:-:|:-:|
-| HailoRT - PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 |
-| HailoRT - Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 |
-| HailoRT - Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 |
+| PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 |
+| Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 |
+| Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 |
 
 
 ---
