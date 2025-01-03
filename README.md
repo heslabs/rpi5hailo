@@ -35,6 +35,18 @@ The Raspberry Pi AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI accele
 * Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8
   * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8
 
+
+---
+## Install the dependencies required to use the NPU. Run the following command from a terminal window:
+```
+sudo apt install hailo-all
+```
+This installs the following dependencies:
+* Hailo kernel device driver and firmware
+* HailoRT middleware software
+* Hailo Tappas core post-processing libraries
+* The rpicam-apps Hailo post-processing software demo stages
+
 ---
 ## Alternative Package Versions
 https://www.raspberrypi.com/documentation/computers/ai.html
