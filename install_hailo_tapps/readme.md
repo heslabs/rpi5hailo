@@ -56,7 +56,7 @@ $ cd tappas
 $ mkdir hailort
 $ git clone https://github.com/hailo-ai/hailort.git hailort/sources
 ```
-#### Change common.py
+#### Modify common.py and add rpi5 platform class
 ```
 $ nano downloader/common.py
 ```
