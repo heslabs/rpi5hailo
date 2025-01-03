@@ -183,3 +183,34 @@ Expected log message: RPI5 with **SSD** and Haili8L
 0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
 ```
 
+---
+## Troubleshooting
+
+---
+### dpkg: error processing archive hailort-pcie-driver_4.19.0_all.deb
+
+
+```
+sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
+(Reading database ... 262329 files and directories currently installed.)
+Preparing to unpack hailort-pcie-driver_4.19.0_all.deb ...
+Could not test for SecureBoot, assuming SecureBoot is disabled on this machine.
+Unpacking hailort-pcie-driver (4.19.0) ...
+dpkg: error processing archive hailort-pcie-driver_4.19.0_all.deb (--install):
+ trying to overwrite '/lib/firmware/hailo/hailo8_fw.4.19.0.bin', which is also in package hailofw 4.19.0-2
+Errors were encountered while processing:
+ hailort-pcie-driver_4.19.0_all.deb
+```
+
+Solution: 
+```
+$ cat /var/log/hailort-pcie-driver.deb.log
+...
+Could not test for SecureBoot, assuming SecureBoot is disabled on this machine.
+######### Fri Jan  3 06:50:37 PM CST 2025 #########
+```
+
+```
+sudo dpkg ­­--purge --force-all hailort-­pcie-­driver
+```
+
