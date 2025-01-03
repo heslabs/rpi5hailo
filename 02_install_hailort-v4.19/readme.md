@@ -1,6 +1,6 @@
 # Install AI kit on RPi5
 
-## Overview
+## RPi5 AI kit Overview
 
 The Raspberry Pi AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI acceleration module for use with Raspberry Pi 5. The kit contains the following:
 * Hailo AI module containing a Neural Processing Unit (NPU)
