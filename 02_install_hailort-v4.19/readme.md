@@ -1,26 +1,11 @@
 # Install AI kit on RPi5
 
-## RPi5 AI kit Overview
-
-The Raspberry Pi AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI acceleration module for use with Raspberry Pi 5. The kit contains the following:
-* Hailo AI module containing a Neural Processing Unit (NPU)
-* Raspberry Pi M.2 HAT+, to connect the AI module to your Raspberry Pi 5
-* thermal pad pre-fitted between the module and the M.2 HAT+
-* mounting hardware kit
-* 16mm stacking GPIO header
-
-<img src="https://github.com/user-attachments/assets/55673538-d651-4ae7-afd6-07d2f5588eef" width=450>
-
----
-## Install AI kit on RPi5
 * AI Kit and AI HAT+ software
-     * https://www.raspberrypi.com/documentation/computers/ai.html
-  
+    * https://www.raspberrypi.com/documentation/computers/ai.html
+* Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8  
+  * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8
+    
 ---
-### Prepare software
-
-* Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8 [[SeedStudio]](https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8)
-  
 ### Update the system
 ```
 sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
