@@ -10,8 +10,8 @@ The Raspberry Pi AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI accele
 * mounting hardware kit
 * 16mm stacking GPIO header
 
-<img src="https://github.com/user-attachments/assets/55673538-d651-4ae7-afd6-07d2f5588eef" width=350>
-<img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=520>
+<img src="https://github.com/user-attachments/assets/55673538-d651-4ae7-afd6-07d2f5588eef" width=300>
+<img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=450>
 
 ---
 ## Resource
