@@ -11,6 +11,13 @@ $ ./install.sh
 
 ```
 $ source ../hailort_4.20.0/hailo_platform_venv/bin/activate
+$ source /home/demo/.hailo/tappas/tappas_env
+```
+
+Error message:
+```
+TAPPAS_WORKSPACE set to /home/demo/hailo/tappas
+TAPPAS_VERSION is 3.31.0 not in the list of required versions 3.29.0 3.29.1 3.30.0.
 ```
 
 ---
