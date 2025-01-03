@@ -1,5 +1,5 @@
 # Raspberry Pi 5 with M.2 Hailo AI Processor
- <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
+ <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=500>
 
 
 ---
@@ -14,6 +14,8 @@
   * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#installation-on-ubuntu
 * Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
   * https://github.com/hailo-ai/tappas
+* Hailo RPi5 Basic Pipelines
+  * Source: https://github.com/hailo-ai/hailo-rpi5-examples
 
 ---
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
