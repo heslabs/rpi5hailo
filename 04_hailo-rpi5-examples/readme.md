@@ -18,11 +18,26 @@ $ source ../hailort_4.20.0/hailo_platform_venv/bin/activate
 $ source /home/demo/.hailo/tappas/tappas_env
 ```
 
-Error message:
+---
+#### Error message:
 ```
 TAPPAS_WORKSPACE set to /home/demo/hailo/tappas
 TAPPAS_VERSION is 3.31.0 not in the list of required versions 3.29.0 3.29.1 3.30.0.
 ```
+
+---
+#### You are not in the hailo_tappas_venv virtual environment
+```
+$ cd hailo-rpi5-example
+$ ./install.sh 
+Setting up the environment...
+Setting up the environment for hailo_tappas...
+TAPPAS_WORKSPACE set to /home/demo/hailo/tappas
+TAPPAS_VERSION is 3.30.0. Proceeding...
+You are not in the hailo_tappas_venv virtual environment.
+Error: Virtual environment not found at /home/demo/hailo/tappas/hailo_tappas_venv/bin/activate.
+```
+
 
 ---
 ## Detection Example:
