@@ -59,21 +59,27 @@ Created symlink /etc/systemd/system/multi-user.target.wants/hailort.service → 
 ---
 ### 2. Install dkms
 * DKMS is a framework that facilitates the building and installation of kernel modules
-* Add kernel modules with DKMS [[Github]](https://github.com/clearlinux/clear-linux-documentation/blob/master/source/guides/kernel/kernel-modules-dkms.rst)
+* Add kernel modules with DKMS
+   * https://github.com/clearlinux/clear-linux-documentation/blob/master/source/guides/kernel/kernel-modules-dkms.rst
+
 ```
 $ sudo apt-get install dkms
 ```
 
-The log message will be:
+The log message will be (new install):
 ```
 /etc/kernel/header_postinst.d/dkms:
 dkms: running auto installation service for kernel 6.1.0-28-arm64.
 dkms: autoinstall for kernel: 6.1.0-28-arm64.
 Setting up linux-headers-arm64 (6.1.119-1) ...
 ```
+The log message will be:
+```
+dkms is already the newest version (3.0.10-8+deb12u1).
+```
 
 ---
-### 3. Install hailort-pcie-driver_4.19.0_all.deb
+### 3. Install hailort-pcie-driver
 ```
 $ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
 $ sudo reboot
@@ -92,7 +98,7 @@ Please reboot your computer for the installation to take effect.
 ```
 
 ---
-### 4. Install Python package (whl) for Python 3.11
+### 4. Install Python package (whl)
 
 #### Create and activate a Python virtual environment
 ```
