@@ -4,20 +4,19 @@
     * https://www.raspberrypi.com/documentation/computers/ai.html
 * Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8  
   * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8
+
     
 ---
-### Update the system
+## Update the system
 ```
 sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
 sudo apt update
 sudo apt full-upgrade
 ```
-
-
-
  
 ---
 ## Installing HailoRT on Ubuntu
+
 The HailoRT Ubuntu offers several files, select the files according to your requirements:
 
 * HailoRT PCIe driver and FW
