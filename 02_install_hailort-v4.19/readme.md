@@ -21,11 +21,11 @@ sudo apt full-upgrade
 The HailoRT Ubuntu offers several files, select the files according to your requirements:
 
 * HailoRT PCIe driver and FW
-   * hailort-pcie-driver_<version>_all.deb
-* HailoRT for the platform architecture 
-   * hailort_<version>_arm64.deb – HailoRT for arm64
-* PyHailoRT for the the platform architecture and installed Python version 
-   * hailort-<version>-cp311-cp311-linux_x86_64.whl – PyHailoRT for python3.11, x86_64
+   * hailort-pcie-driver_4.19.0_all.deb
+* HailoRT for the platform architecture for arm64  
+   * hailort_4.19.0_arm64.deb  4
+* PyHailoRT for the the platform architecture and installed Python version (3.11) for aarch64 
+   * hailort-4.19.0-cp311-cp311-linux_aarch64.whl
 
 ---
 ### Download packages
