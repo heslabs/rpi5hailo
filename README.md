@@ -59,30 +59,9 @@ $ lspci
 0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
 ```
 
----
-## Alternative Package Versions
-https://www.raspberrypi.com/documentation/computers/ai.html
-
-#### 1. If you have previously used apt-mark to hold any of the relevant packages, you may need to unhold them:
-```
-sudo apt-mark unhold hailo-tappas-core hailort hailo-dkms
-```
-
-#### 2. Install the required version of the software packages:
-
-* hailort=4.20.0 | hailort=4.19.0 | hailort=4.18.0
-```
-$ sudo apt install hailo-tappas-core=3.31.0 hailort=4.20.0 hailo-dkms=4.20.0-2
-$ sudo apt install hailo-tappas-core=3.30.0 hailort=4.19.0 hailo-dkms=4.19.0-2
-$ sudo apt install hailo-tappas-core=3.29.1 hailort=4.18.0 hailo-dkms=4.18.0-2
-```
-
-```
-$ sudo apt-mark hold hailo-tappas-core hailort hailo-dkms
-```
 
 ---
-### Hailo RPi5 Basic Pipelines
+## Hailo RPi5 Examples
 https://github.com/hailo-ai/hailo-rpi5-examples
 
 * Clone the repository and navigate to the repository directory:
