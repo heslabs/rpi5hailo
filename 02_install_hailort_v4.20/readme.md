@@ -154,4 +154,18 @@ pip uninstall hailort
 $ cd ~/hailo-rpi5-example
 $ source ../hailort_4.20.0/hailo_platform_venv/bin/activate
 $ ./install.sh
+$ source setup_env.sh
+$ python basic_pipelines/detection.py
 ```
+
+---
+## Troubleshooting
+
+---
+### -lgsthailometa: No such file or directory
+/usr/bin/ld: cannot find -lgsthailometa: No such file or directory
+/usr/bin/ld: cannot find -lhailo_tracker: No such file or directory
+/usr/bin/ld: cannot find -lhailo_gst_image: No such file or directory
+/usr/bin/ld: cannot find -lhailo_cv_singleton: No such file or directory
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
