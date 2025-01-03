@@ -23,8 +23,9 @@ Rdference: Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines [[Gi
 
 ---
 ## Install Tapps
-* https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8/
-* Install necessary libs
+Reference: https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8/
+
+### Install necessary libs
 ```
 $ sudo apt-get install -y rsync ffmpeg x11-utils python3-dev python3-pip python3-setuptools python3-virtualenv python-gi-dev libgirepository1.0-dev gcc-12 g++-12 cmake git libzmq3-dev
 $ sudo apt-get install -y libopencv-dev python3-opencv
