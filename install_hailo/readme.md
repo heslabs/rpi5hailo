@@ -29,9 +29,13 @@ sudo apt full-upgrade
      * https://community.hailo.ai/
 
 #### Download packages
-* HailoRT – PCIe driver Ubuntu package (deb): 4.19.0, September 30, 2024	
-* HailoRT – Python package (whl) for Python 3.11, aarch64: 4.19.0, September 30, 2024	
-* HailoRT – Ubuntu package (deb) for arm64: 4.19.0, September 30, 2024	
+ 
+| HailoRT Package | Version | Date |
+|:-|:-:|:-:|
+| PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 |
+| Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 |
+| Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 |
+
 
 #### Installation guide
 * HailoRT v4.19.0
