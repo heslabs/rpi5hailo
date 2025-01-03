@@ -26,11 +26,17 @@ Rdference: Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines [[Gi
 Reference: https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8/
 
 ### Install necessary libs
+
 ```
 $ sudo apt-get install -y rsync ffmpeg x11-utils python3-dev python3-pip python3-setuptools python3-virtualenv python-gi-dev libgirepository1.0-dev gcc-12 g++-12 cmake git libzmq3-dev
 $ sudo apt-get install -y libopencv-dev python3-opencv
 $ sudo apt-get install -y libcairo2-dev libgirepository1.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio gcc-12 g++-12 python-gi-dev
 $ sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0
+```
+
+If got the error message, try 'apt --fix-broken install' with no packages (or specify a solution).
+```
+$ sudo apt --fix-broken install
 ```
 
 #### Set hailo_pci force_desc_page_size
