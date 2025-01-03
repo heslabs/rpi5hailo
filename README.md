@@ -1,19 +1,23 @@
 # Raspberry Pi 5 with M.2 Hailo AI Processor
  <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=600>
 
+
+---
+## Resource
+* Get Raspberry Pi AI Kit
+  * https://github.com/heslabs/rpi5hailo/tree/main/rpi5_aikit)
+* Install AI kit on RPi5 
+  * https://github.com/heslabs/rpi5hailo/tree/main/install_hailo
+* Hailo’s Software Downloads and Documentation
+  * https://community.hailo.ai/
+* HailoRT v4.19.0 - Installing HailoRT on Ubuntu
+  * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#installation-on-ubuntu
+
 ---
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
 <img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>
-
-* Get Raspberry Pi AI Kit [[More in Github]](https://github.com/heslabs/rpi5hailo/tree/main/rpi5_aikit)
-
----
-## Install AI kit on RPi5
-* Install AI kit on RPi5 [[More in Github]](https://github.com/heslabs/rpi5hailo/tree/main/install_hailo)
-  
-### Installation guide
-* HailoRT v4.19.0 [[Hailo-Developer-Zone]](https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
-
+ 
+ 
 ### Download hailo software on hailo website
 * Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
      * https://community.hailo.ai/
