@@ -81,7 +81,7 @@ dkms is already the newest version (3.0.10-8+deb12u1).
 ---
 ### 3. Install hailort-pcie-driver
 ```
-$ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
+$ sudo apt-get install dkms 
 $ sudo reboot
 ```
 
@@ -201,6 +201,7 @@ Could not test for SecureBoot, assuming SecureBoot is disabled on this machine.
 ```
 
 ```
-sudo dpkg ­­--purge --force-all hailort-­pcie-­driver
+$ sudo dpkg ­­--purge --force-all hailort-­pcie-­driver
+$ sudo dpkg --purge --force-all hailort-pcie-driver_4.19.0_all.deb 
 ```
 
