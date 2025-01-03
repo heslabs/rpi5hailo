@@ -1,6 +1,17 @@
 # Raspberry Pi 5 with M.2 Hailo AI Processor
- <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=500>
 
+---
+## RPi5 AI kit Overview
+
+The Raspberry Pi AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI acceleration module for use with Raspberry Pi 5. The kit contains the following:
+* Hailo AI module containing a Neural Processing Unit (NPU)
+* Raspberry Pi M.2 HAT+, to connect the AI module to your Raspberry Pi 5
+* thermal pad pre-fitted between the module and the M.2 HAT+
+* mounting hardware kit
+* 16mm stacking GPIO header
+
+<img src="https://github.com/user-attachments/assets/55673538-d651-4ae7-afd6-07d2f5588eef" width=350>
+<img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=520>
 
 ---
 ## Resource
