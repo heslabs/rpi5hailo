@@ -149,6 +149,8 @@ $ python basic_pipelines/instance_segmentation.py --help
 
 * Raspberry Pi hardware - Introduction
   * https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#introduction 
+* Raspberry Pi 5 uses PCIe hat/dual hat
+  * https://wiki.seeedstudio.com/raspberry_pi_5_uses_pcie_hat_dual_hat/
 * Raspberry Pi - AI Kit and AI HAT+ software
   * https://www.raspberrypi.com/documentation/computers/ai.html
 * Install Hailo Software & Verify Installation
