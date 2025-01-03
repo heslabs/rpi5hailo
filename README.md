@@ -51,8 +51,8 @@ $ lspci
 
 ---
 ### Hailo RPi5 Basic Pipelines
-[[Hailo-AI-GitHub]](https://github.com/hailo-ai/hailo-rpi5-examples)
- 
+https://github.com/hailo-ai/hailo-rpi5-examples
+
 * Clone the repository and navigate to the repository directory:
 * Run the following script for quick installation
 ```
