@@ -27,20 +27,6 @@ sudo apt full-upgrade
 * Note: you need an official Hailo account and ensure you are logged in. Click this link download the necessary libs as follows:
 * Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
      * https://community.hailo.ai/
-
-#### Download packages
- 
-| HailoRT Package | Version | Date |
-|:-|:-:|:-:|
-| PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 |
-| Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 |
-| Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 |
-
-
-#### Installation guide
-* HailoRT v4.19.0
-     * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
-
 ---
 <img src="https://github.com/user-attachments/assets/da5251f8-446b-4375-89e4-f880c2ee7bd1" width=400>
 
@@ -51,17 +37,40 @@ sudo apt full-upgrade
 <img src="https://github.com/user-attachments/assets/1f5dc008-6eda-4289-ad0d-5339f2e99fb8" width=800>
 
 ---
-### Install hailort_4.19.0_arm64.deb on respberrypi5
-```
-sudo dpkg -i hailort_4.19.0_arm64.deb 
-sudo reboot
-```
+#### Installation guide
+* HailoRT v4.19.0
+     * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
+
 ---
-### Install dkms
+#### Download packages
+ 
+| HailoRT Package | Version | Date | File |
+|:-|:-:|:-:|:-|
+| PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 | hailort-pcie-driver_4.19.0_all.deb |
+| Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 | hailort_4.19.0_arm64.deb |
+| Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 | hailort-4.19.0-cp311-cp311-linux_aarch64.whl |
+
+---
+### 1. Install Ubuntu package (deb) for arm64
+File: hailort_4.19.0_arm64.deb
+```
+$ sudo dpkg -i hailort_4.19.0_arm64.deb 
+$ sudo reboot
+```
+Expected log message:
+```
+Setting up hailort (4.19.0) ...
+Do you wish to activate hailort service? (required for most pyHailoRT use cases) [y/N]: y
+Starting hailort.service
+Created symlink /etc/systemd/system/multi-user.target.wants/hailort.service → /lib/systemd/system/hailort.service.
+```
+
+---
+### 2. Install dkms
 * DKMS is a framework that facilitates the building and installation of kernel modules
 * Add kernel modules with DKMS [[Github]](https://github.com/clearlinux/clear-linux-documentation/blob/master/source/guides/kernel/kernel-modules-dkms.rst)
 ```
-sudo apt-get install dkms
+$ sudo apt-get install dkms
 ```
 
 Expected log message:
@@ -73,10 +82,10 @@ Setting up linux-headers-arm64 (6.1.119-1) ...
 ```
 
 ---
-### Install hailort-pcie-driver_4.19.0_all.deb
+### 3. Install hailort-pcie-driver_4.19.0_all.deb
 ```
-sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
-sudo reboot
+$ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
+$ sudo reboot
 ```
 
 Expected log message:
@@ -92,21 +101,33 @@ Please reboot your computer for the installation to take effect.
 ```
 
 ---
-### Create and activate a Python virtual environment
+### 4. Install Python package (whl) for Python 3.11
+
+#### Create and activate a Python virtual environment
 ```
-python -m venv hailo_env
-source hailo_env/bin/activate
-```
-### Install hailort-4.19.0-cp311-cp311-linux_aarch64.whl
-```
-pip install hailort-4.19.0-cp311-cp311-linux_aarch64.whl 
-```
-### Check if the software is installed.
-```
-hailortcli fw-control identify
+$ cd ~/hailo
+$ python -m venv hailo_env
+$ source hailo_env/bin/activate
 ```
 
+#### Install Python package (whl) for Python 3.11 and aarch64 
+Downloaded File: hailort-4.19.0-cp311-cp311-linux_aarch64.whl
+```
+$ pip install hailort-4.19.0-cp311-cp311-linux_aarch64.whl
+```
 Expected log message:
+```
+Successfully installed argcomplete-3.5.3 contextlib2-21.6.0 future-1.0.0 hailort-4.19.0 netaddr-1.3.0 netifaces-0.11.0 numpy-1.26.4 verboselogs-1.7
+```
+
+
+#### Check if the software is installed.
+```
+$ hailortcli fw-control identify
+```
+
+Expected log message: 
+Device Architectur: **HAILO-8L**
 ```
 Executing on device: 0000:01:00.0
 Identifying board
@@ -120,6 +141,7 @@ Part Number: HM21LB1C2LAE
 Product Name: HAILO-8L AI ACC M.2 B+M KEY MODULE EXT TMP
 ```
 
+---
 ### Set pcie to gen2/gen3(gen3 is faster than gen2):
 * Add following text to /boot/firmware/config.txt
 * note: If you want to use gen2,please comment dtparam=pciex1_gen=3
@@ -129,18 +151,20 @@ dtparam=pciex1
 # Force Gen 3.0 speeds
 dtparam=pciex1_gen=3
 ```
+
+---
 ### Install Tapps
 * Install necessary libs
 ```
-sudo apt-get install -y rsync ffmpeg x11-utils python3-dev python3-pip python3-setuptools python3-virtualenv python-gi-dev libgirepository1.0-dev gcc-12 g++-12 cmake git libzmq3-dev
-sudo apt-get install -y libopencv-dev python3-opencv
-sudo apt-get install -y libcairo2-dev libgirepository1.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio gcc-12 g++-12 python-gi-dev
-sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0
+$ sudo apt-get install -y rsync ffmpeg x11-utils python3-dev python3-pip python3-setuptools python3-virtualenv python-gi-dev libgirepository1.0-dev gcc-12 g++-12 cmake git libzmq3-dev
+$ sudo apt-get install -y libopencv-dev python3-opencv
+$ sudo apt-get install -y libcairo2-dev libgirepository1.0-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio gcc-12 g++-12 python-gi-dev
+$ sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0
 ```
 
 #### Set hailo_pci force_desc_page_size
 ```
-sudo nano /etc/modprobe.d/hailo_pci.conf
+$ sudo nano /etc/modprobe.d/hailo_pci.conf
 ```
 #### And then input the following content.
 ```
@@ -150,21 +174,21 @@ options hailo_pci force_desc_page_size=4096
 
 #### And then reboot the raspberrypi5
 ```
-sudo reboot
+$ sudo reboot
 ```
 #### Download Tapps
 ```
-git clone --depth 1 https://github.com/hailo-ai/tappas.git
+$ git clone --depth 1 https://github.com/hailo-ai/tappas.git
 ```
 #### Download hailort to tapps
 ```
-cd tappas
-mkdir hailort
-git clone https://github.com/hailo-ai/hailort.git hailort/sources
+$ cd tappas
+$ mkdir hailort
+$ git clone https://github.com/hailo-ai/hailort.git hailort/sources
 ```
 #### Change common.py
 ```
-nano downloader/common.py
+$ nano downloader/common.py
 ```
 And change the content like below, add RaspberryPI5 = 'rpi5'in common.py:
 ```
@@ -183,7 +207,7 @@ class Platform(Enum):
 ```
 #### Install tappas
 ```
-./install.sh --skip-hailort --target-platform rpi5
+$ ./install.sh --skip-hailort --target-platform rpi5
 ```
 
 Expected log message:
@@ -198,9 +222,14 @@ Tappas was successfully installed.
 ```
 ### Check PCIe interface
 ```
-lspci
+$ lspci
+```
+Expected log message:
+```
 0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
 0000:01:00.0 Co-processor: Hailo Technologies Ltd. Hailo-8 AI Processor (rev 01)
 0001:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
 0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
+```
 
+`````
