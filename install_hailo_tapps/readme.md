@@ -1,3 +1,26 @@
+# Hailo TAPPAS 
+
+Rdference: Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines [[Github]](https://github.com/hailo-ai/tappas)
+
+<img src="https://github.com/user-attachments/assets/f3a46cdd-cf2e-44be-9475-f936050f4002" width=450>
+
+---
+## Overview
+* TAPPAS is Hailo's set of **full application examples**, implementing pipeline elements and pre-trained AI tasks.
+* Demonstrating Hailo's system integration scenario of specific use cases on predefined systems (software and Hardware platforms).
+* It can be used for evaluations, reference code and demos:
+    * Accelerating time to market by reducing development time and deployment effort
+    * Simplifying integration with Hailo’s runtime SW stack
+    * Providing a starting point for customers to fine-tune their applications
+
+---
+<img src="https://github.com/user-attachments/assets/6652d300-4d99-4d98-a189-24e3ee471bfd" width=800>
+
+
+---
+## Reference
+* How to Set Up Raspberry Pi 5 and Hailo [[Github]](https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/install-raspberry-pi5.md)
+
 ---
 ## Install Tapps
 * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8/
@@ -54,6 +77,7 @@ class Platform(Enum):
 ```
 #### Install tappas
 ```
+$ cd ./tappas
 $ ./install.sh --skip-hailort --target-platform rpi5
 ```
 
