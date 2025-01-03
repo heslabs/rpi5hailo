@@ -10,7 +10,7 @@ $ ./install.sh
 ```
 
 Environment settings
-* hailort_4.20.0
+* hailort_4.19.0
 * tappas-3.30.0
 
 ```
@@ -18,9 +18,13 @@ $ source ../hailort_4.20.0/hailo_platform_venv/bin/activate
 $ source /home/demo/.hailo/tappas/tappas_env
 ```
 
+---
+### Install hailo-rpi5-examles
 ```
+$ cd hailo-rpi5-example
+$ ./install.sh 
 $ virtualenv -p python3.11 hailo_tappas_venv
-$ source hailo_tappas_venv/bin/activate && 
+$ source hailo_tappas_venv/bin/activate && source /home/demo/.hailo/tappas/tappas_env
 ```
 
 ---
@@ -43,6 +47,11 @@ You are not in the hailo_tappas_venv virtual environment.
 Error: Virtual environment not found at /home/demo/hailo/tappas/hailo_tappas_venv/bin/activate.
 ```
 
+---
+#### Unsupported firmware operation. Host: 4.20.0, Device: 4.19.0
+```
+[HailoRT] [warning] Unsupported firmware operation. Host: 4.20.0, Device: 4.19.0
+```
 
 ---
 ## Detection Example:
