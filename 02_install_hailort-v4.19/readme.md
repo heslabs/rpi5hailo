@@ -42,45 +42,18 @@ sudo apt full-upgrade
 | Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 | hailort-4.19.0-cp311-cp311-linux_aarch64.whl |
 
 ---
-### 1. Install Ubuntu package (deb) for arm64
-File: hailort_4.19.0_arm64.deb
-```
-$ sudo dpkg -i hailort_4.19.0_arm64.deb 
-$ sudo reboot
-```
-The log message will be:
-```
-Setting up hailort (4.19.0) ...
-Do you wish to activate hailort service? (required for most pyHailoRT use cases) [y/N]: y
-Starting hailort.service
-Created symlink /etc/systemd/system/multi-user.target.wants/hailort.service → /lib/systemd/system/hailort.service.
-```
+## Installing HailoRT on Ubuntu
+The HailoRT Ubuntu offers several files, select the files according to your requirements:
+
+* HailoRT PCIe driver and FW
+   * hailort-pcie-driver_<version>_all.deb
+* HailoRT for the platform architecture 
+   * hailort_<version>_arm64.deb – HailoRT for arm64
+* PyHailoRT for the the platform architecture and installed Python version 
+   * hailort-<version>-cp311-cp311-linux_x86_64.whl – PyHailoRT for python3.11, x86_64
 
 ---
-### 2. Install dkms
-* DKMS is a framework that facilitates the building and installation of kernel modules
-* Add kernel modules with DKMS
-   * https://github.com/clearlinux/clear-linux-documentation/blob/master/source/guides/kernel/kernel-modules-dkms.rst
-
-```
-$ sudo apt-get install dkms
-```
-
-The log message will be (new install):
-```
-/etc/kernel/header_postinst.d/dkms:
-dkms: running auto installation service for kernel 6.1.0-28-arm64.
-dkms: autoinstall for kernel: 6.1.0-28-arm64.
-Setting up linux-headers-arm64 (6.1.119-1) ...
-```
-The log message will be:
-```
-dkms is already the newest version (3.0.10-8+deb12u1).
-```
-
-
----
-### 3. Install hailort-pcie-driver
+### 1. Install HailoRT PCIe driver and FW
 ```
 $ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb
 ```
@@ -98,7 +71,22 @@ Please reboot your computer for the installation to take effect.
 ```
 
 ---
-### 4. Install Python package (whl)
+### 2. Install HailoRT for the platform architecture 
+File: hailort_4.19.0_arm64.deb
+```
+$ sudo dpkg -i hailort_4.19.0_arm64.deb 
+$ sudo reboot
+```
+The log message will be:
+```
+Setting up hailort (4.19.0) ...
+Do you wish to activate hailort service? (required for most pyHailoRT use cases) [y/N]: y
+Starting hailort.service
+Created symlink /etc/systemd/system/multi-user.target.wants/hailort.service → /lib/systemd/system/hailort.service.
+```
+
+---
+### 3. PyHailoRT for the the platform architecture and installed Python version 
 
 #### Create and activate a Python virtual environment
 ```
@@ -117,8 +105,10 @@ The log message will be:
 Successfully installed argcomplete-3.5.3 contextlib2-21.6.0 future-1.0.0 hailort-4.19.0 netaddr-1.3.0 netifaces-0.11.0 numpy-1.26.4 verboselogs-1.7
 ```
 
+---
+### Validate the device
 
-#### Check if the software is installed.
+Check if the software is installed.
 ```
 $ hailortcli fw-control identify
 ```
