@@ -7,14 +7,27 @@
 * 27W USB-C PD Power Supply Black - US Version (SKU 106990428) $12.00 [[SeeedStudio]](https://www.seeedstudio.com/27W-USB-C-PD-Power-Supply-Black-US-Version-p-5812.html)
 
 ---
+## PRI5/8GB + HAILO8L/13TOPS + SDCard/128GB
+
 | Product | Price (USD) | Qty | Subtotal | Price (NTD) |
 |:-|-:|:-:|-:|-:|
 | Raspberry Pi 5 8GB | 77.5 | 1 | 77.5 | 2,480 |
 | Raspberry Pi AI Kit | 70.0 | 1 | 70.0 | 2,240 |
-| 27W USB-C power supply | 12.0 | 1 | 12.0 | 384 |
 | microSD 128GB (190MB/s)  | 12.0 | 1 | 12.0 | 384 |
+| 27W USB-C power supply | 12.0 | 1 | 12.0 | 384 |
 | Subtotal ||| 171.5 | 5,488 | 
- 
+
+---
+## PRI5/8GB + HAILO8L/13TOPS + NVMe SSD/256GB
+
+| Product | Price (USD) | Qty | Subtotal | Price (NTD) |
+|:-|-:|:-:|-:|-:|
+| Raspberry Pi 5 8GB | 77.5 | 1 | 77.5 | 2,480 |
+| Raspberry Pi AI Kit | 70.0 | 1 | 70.0 | 2,240 |
+| M.2 NVMe SSD (256GB)  | 29.0 | 1 | 29.0 | 948 |
+| 27W USB-C power supply | 12.0 | 1 | 12.0 | 384 |
+| Subtotal ||| 188.5 | 6,052 | 
+
 ---
 <img src="https://github.com/user-attachments/assets/18c75e82-d3e0-486e-8bb8-16651c63bd0b" width=800>
 
