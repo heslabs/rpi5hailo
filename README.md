@@ -9,15 +9,17 @@
 * Install AI kit on RPi5 
   * https://github.com/heslabs/rpi5hailo/tree/main/install_hailo
 * Hailo’s Software Downloads and Documentation
-  * https://community.hailo.ai/
+  * https://community.hailo.ai
 * HailoRT v4.19.0 - Installing HailoRT on Ubuntu
   * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#installation-on-ubuntu
 * HailoRT v4.20.0 documentation
-  * https://hailo.ai/developer-zone/documentation/hailort-v4-20-0/
+  * https://hailo.ai/developer-zone/documentation/hailort-v4-20-0
 * Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
   * https://github.com/hailo-ai/tappas
 * Hailo RPi5 Basic Pipelines
   * https://github.com/hailo-ai/hailo-rpi5-examples
+* Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8
+  * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8
 
 ---
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
