@@ -25,6 +25,28 @@
   * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8
 
 ---
+## Alternative Package Versions
+https://www.raspberrypi.com/documentation/computers/ai.html
+
+#### 1. If you have previously used apt-mark to hold any of the relevant packages, you may need to unhold them:
+```
+sudo apt-mark unhold hailo-tappas-core hailort hailo-dkms
+```
+
+#### 2. Install the required version of the software packages:
+
+* hailort=4.20.0 | hailort=4.19.0 | hailort=4.18.0
+```
+$ sudo apt install hailo-tappas-core=3.31.0 hailort=4.20.0 hailo-dkms=4.20.0-2
+$ sudo apt install hailo-tappas-core=3.30.0 hailort=4.19.0 hailo-dkms=4.19.0-2
+$ sudo apt install hailo-tappas-core=3.29.1 hailort=4.18.0 hailo-dkms=4.18.0-2
+```
+
+```
+$ sudo apt-mark hold hailo-tappas-core hailort hailo-dkms
+```
+
+---
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
 <img src="https://github.com/user-attachments/assets/658ef470-cad6-4972-abf2-48a6fd663730" width=330>
  
@@ -32,15 +54,6 @@
 ### Download hailo software on hailo website
 * Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
      * https://community.hailo.ai/
-
-#### Download packages
- 
-| HailoRT Package | Version | Date |
-|:-|:-:|:-:|
-| PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 |
-| Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 |
-| Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 |
-
 
 ---
 ### Check PCIe interface - Hailo-8 AI Processor
@@ -139,8 +152,8 @@ $ python basic_pipelines/instance_segmentation.py --help
 ---
 ## Resource
 
-* GitHub: Hailo Raspberry Pi 5 Examples [[Hailo-AI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples)
-* Hailo RPi5 Basic Pipelines [[Hailo-AI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/basic-pipelines.md)
+* GitHub: Hailo Raspberry Pi 5 Examples [[HailoAI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples)
+* Hailo RPi5 Basic Pipelines [[HailoAI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/basic-pipelines.md)
 * Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8 [[SeeedStudio-WIKI]](https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8) [[Youtube]](https://www.youtube.com/watch?v=CHxg7qWTMYw)
 * Raspberry Pi:Install AI kit on RPi5 [[RaspberryPi-Website]](https://www.raspberrypi.com/documentation/accessories/ai-kit.html)
 * YOLOv8 - Ultralytics [[Ultralytics]](https://docs.ultralytics.com/models/yolov8/)
