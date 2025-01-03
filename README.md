@@ -34,6 +34,19 @@ $ lspci -m
 $ hailortcli scan
 $ hailortcli fw-control identify
 ```
+The log message will be:
+```
+Executing on device: 0000:04:00.0
+Identifying board
+Control Protocol Version: 2
+Firmware Version: 4.20.0 (release,app,extended context switch buffer)
+Logger Version: 0
+Board Name: Hailo-8
+Device Architecture: HAILO8L
+Serial Number: HLDDLBB243900626
+Part Number: HM21LB1C2LAE
+Product Name: HAILO-8L AI ACC M.2 B+M KEY MODULE EXT TMP
+```
 
 ---
 ## Alternative Package Versions
