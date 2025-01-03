@@ -13,19 +13,7 @@ sudo apt update
 sudo apt full-upgrade
 ```
 
----
-### Download hailo software on hailo office web
-* Note: you need an official Hailo account and ensure you are logged in. Click this link download the necessary libs as follows:
-* Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
-     * https://community.hailo.ai/
----
-<img src="https://github.com/user-attachments/assets/da5251f8-446b-4375-89e4-f880c2ee7bd1" width=400>
 
----
-<img src="https://github.com/user-attachments/assets/db65c4bc-0dd3-41eb-8878-374aa53c0df1" width=800>
-
----
-<img src="https://github.com/user-attachments/assets/1f5dc008-6eda-4289-ad0d-5339f2e99fb8" width=800>
 
  
 ---
@@ -41,7 +29,24 @@ The HailoRT Ubuntu offers several files, select the files according to your requ
 
 ---
 ### Download packages
- 
+
+* Note: you need an official Hailo account and ensure you are logged in. Click this link download the necessary libs as follows:
+* Get Hailo’s Software Downloads and Documentation, Sign in / Sign up is required
+     * https://community.hailo.ai/
+
+---
+<br/>
+<img src="https://github.com/user-attachments/assets/da5251f8-446b-4375-89e4-f880c2ee7bd1" width=400>
+
+---
+<br/>
+<img src="https://github.com/user-attachments/assets/db65c4bc-0dd3-41eb-8878-374aa53c0df1" width=800>
+
+---
+<br/>
+<img src="https://github.com/user-attachments/assets/1f5dc008-6eda-4289-ad0d-5339f2e99fb8" width=800>
+
+---
 | HailoRT Package | Version | Date | File |
 |:-|:-:|:-:|:-|
 | PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 | hailort-pcie-driver_4.19.0_all.deb |
@@ -49,7 +54,7 @@ The HailoRT Ubuntu offers several files, select the files according to your requ
 | Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 | hailort-4.19.0-cp311-cp311-linux_aarch64.whl |
 
 * HailoRT v4.19.0 Installation guide
-      * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
+   * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
 
 ---
 ### 1. Install HailoRT PCIe driver and FW
