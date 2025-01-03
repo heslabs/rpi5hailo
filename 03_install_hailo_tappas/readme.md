@@ -103,5 +103,8 @@ Tappas was successfully installed.
     To start using it please set required environment variables, by running:
     source /home/demo/.hailo/tappas/tappas_env
 ```
-
-
+#### 4. Using Tappas environment
+To start using it please set required environment variables, by running:
+```
+$ source /home/demo/.hailo/tappas/tappas_env
+```
