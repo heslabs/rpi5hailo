@@ -9,6 +9,10 @@ $ cd hailo-rpi5-examples
 $ ./install.sh
 ```
 
+Environment settings
+* hailort_4.20.0
+* tappas-3.30.0
+
 ```
 $ source ../hailort_4.20.0/hailo_platform_venv/bin/activate
 $ source /home/demo/.hailo/tappas/tappas_env
