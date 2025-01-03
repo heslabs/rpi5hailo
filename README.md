@@ -13,27 +13,6 @@ The Raspberry Pi AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI accele
 <img src="https://github.com/user-attachments/assets/55673538-d651-4ae7-afd6-07d2f5588eef" width=300>
 <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=450>
 
----
-## Resource
-
-* Raspberry Pi hardware - Introduction
-  * https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#introduction 
-* Raspberry Pi - AI Kit and AI HAT+ software
-  * https://www.raspberrypi.com/documentation/computers/ai.html
-* Install Hailo Software & Verify Installation
-  * https://wiki.seeedstudio.com/clip_application_on_rpi5_with_ai_kit/
-* Hailo’s Software Downloads and Documentation
-  * https://community.hailo.ai
-* HailoRT v4.19.0 - Installing HailoRT on Ubuntu
-  * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#installation-on-ubuntu
-* HailoRT v4.20.0 documentation
-  * https://hailo.ai/developer-zone/documentation/hailort-v4-20-0
-* Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
-  * https://github.com/hailo-ai/tappas
-* Hailo RPi5 Basic Pipelines
-  * https://github.com/hailo-ai/hailo-rpi5-examples
-* Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8
-  * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8
 
 
 ---
@@ -184,10 +163,29 @@ $ python basic_pipelines/instance_segmentation.py --help
 ---
 ## Resource
 
-* GitHub: Hailo Raspberry Pi 5 Examples [[HailoAI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples)
-* Hailo RPi5 Basic Pipelines [[HailoAI-Github]](https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/basic-pipelines.md)
-* Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8 [[SeeedStudio-WIKI]](https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8) [[Youtube]](https://www.youtube.com/watch?v=CHxg7qWTMYw)
-* Raspberry Pi:Install AI kit on RPi5 [[RaspberryPi-Website]](https://www.raspberrypi.com/documentation/accessories/ai-kit.html)
-* YOLOv8 - Ultralytics [[Ultralytics]](https://docs.ultralytics.com/models/yolov8/)
-* Testing Raspberry Pi's AI Kit - 13 TOPS for $70 (2024.07) [[blog]](https://www.jeffgeerling.com/blog/2024/testing-raspberry-pis-ai-kit-13-tops-70)
+* Raspberry Pi hardware - Introduction
+  * https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#introduction 
+* Raspberry Pi - AI Kit and AI HAT+ software
+  * https://www.raspberrypi.com/documentation/computers/ai.html
+* Install Hailo Software & Verify Installation
+  * https://wiki.seeedstudio.com/clip_application_on_rpi5_with_ai_kit/
+* Hailo’s Software Downloads and Documentation
+  * https://community.hailo.ai
+* HailoRT v4.19.0 - Installing HailoRT on Ubuntu
+  * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#installation-on-ubuntu
+* HailoRT v4.20.0 documentation
+  * https://hailo.ai/developer-zone/documentation/hailort-v4-20-0
+* Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
+  * https://github.com/hailo-ai/tappas
+* Hailo Raspberry Pi5 Examples
+  * https://github.com/hailo-ai/hailo-rpi5-examples
+* Hailo RPi5 Basic Pipelines
+  * https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/basic-pipelines.md
+* Benchmark of Multistream Inference on Raspberrypi 5 with Hailo8
+  * https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8
+  * https://www.youtube.com/watch?v=CHxg7qWTMYw
+* YOLOv8 - Ultralytics
+  * https://docs.ultralytics.com/models/yolov8
+* Testing Raspberry Pi's AI Kit - 13 TOPS for $70 (2024.07)
+  * https://www.jeffgeerling.com/blog/2024/testing-raspberry-pis-ai-kit-13-tops-70)
 
