@@ -25,6 +25,7 @@ Rdference: Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines [[Gi
 ## Install Tapps
 Reference: https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8/
 
+---
 ### Install necessary libs
 
 ```
@@ -39,38 +40,38 @@ If got the error message, try 'apt --fix-broken install' with no packages (or sp
 $ sudo apt --fix-broken install
 ```
 
-#### Set hailo_pci force_desc_page_size
+---
+#### Set hailo_pci
+1. Set hailo_pci force_desc_page_size
 ```
-$ sudo nano /etc/modprobe.d/hailo_pci.conf
+$ sudo vim /etc/modprobe.d/hailo_pci.conf
 ```
-#### And then input the following content.
+2. Adding the following content into "hailo_pci.conf"
 ```
 options hailo_pci force_desc_page_size=4096
 ```
-* Finally, press Ctrl+X, type Y, and press Enter to save the file
-
-#### And then reboot the raspberrypi5
+3. And then reboot the raspberrypi5
 ```
 $ sudo reboot
 ```
-#### Download Tapps
+
+---
+### Download and install Tappas
 ```
 $ git clone --depth 1 https://github.com/hailo-ai/tappas.git
 ```
-#### Download hailort to tapps
+
+#### 1. Download hailort to tapps
 ```
 $ cd tappas
 $ mkdir hailort
 $ git clone https://github.com/hailo-ai/hailort.git hailort/sources
 ```
-
+ 
+#### 2. Modify common.py and add rpi5 platform class
 ```
-$ git clone https://github.com/hailo-ai/hailort.git
-```
-
-#### Modify common.py and add rpi5 platform class
-```
-$ nano downloader/common.py
+$ cd <tappas>
+$ vim downloader/common.py
 ```
 And change the content like below, add RaspberryPI5 = 'rpi5'in common.py:
 ```
@@ -87,7 +88,7 @@ class Platform(Enum):
     def __str__(self):
         return self.value
 ```
-#### Install tappas
+#### 3. Install tappas
 ```
 $ cd ./tappas
 $ ./install.sh --skip-hailort --target-platform rpi5
@@ -103,4 +104,5 @@ Tappas was successfully installed.
     To start using it please set required environment variables, by running:
     source /home/demo/.hailo/tappas/tappas_env
 ```
+
 
