@@ -4,10 +4,13 @@
 
 ---
 ## Resource
-* Get Raspberry Pi AI Kit
-  * https://github.com/heslabs/rpi5hailo/tree/main/rpi5_aikit)
-* Install AI kit on RPi5 
-  * https://github.com/heslabs/rpi5hailo/tree/main/install_hailo
+
+* Raspberry Pi hardware - Introduction
+  * https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#introduction 
+* Raspberry Pi - AI Kit and AI HAT+ software
+  * https://www.raspberrypi.com/documentation/computers/ai.html
+* Install Hailo Software & Verify Installation
+  * https://wiki.seeedstudio.com/clip_application_on_rpi5_with_ai_kit/
 * Hailo’s Software Downloads and Documentation
   * https://community.hailo.ai
 * HailoRT v4.19.0 - Installing HailoRT on Ubuntu
