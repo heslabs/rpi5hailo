@@ -232,4 +232,3 @@ Expected log message:
 0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
 ```
 
-`````
