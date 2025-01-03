@@ -81,8 +81,7 @@ dkms is already the newest version (3.0.10-8+deb12u1).
 ---
 ### 3. Install hailort-pcie-driver
 ```
-$ sudo apt-get install dkms 
-$ sudo reboot
+$ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb
 ```
 
 The log message will be:
