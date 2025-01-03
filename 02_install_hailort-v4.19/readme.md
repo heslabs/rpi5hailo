@@ -78,15 +78,16 @@ The log message will be:
 dkms is already the newest version (3.0.10-8+deb12u1).
 ```
 
+
 ---
 ### 3. Install hailort-pcie-driver
 ```
 $ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb
 ```
+PC restart is required after driver installation.
 
 The log message will be:
 ```
-demo@rpi5:~/hailo$ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
 Selecting previously unselected package hailort-pcie-driver.
 Preparing to unpack hailort-pcie-driver_4.19.0_all.deb ...
 Unpacking hailort-pcie-driver (4.19.0) ...
