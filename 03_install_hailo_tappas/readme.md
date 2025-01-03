@@ -63,6 +63,11 @@ $ cd tappas
 $ mkdir hailort
 $ git clone https://github.com/hailo-ai/hailort.git hailort/sources
 ```
+
+```
+$ git clone https://github.com/hailo-ai/hailort.git
+```
+
 #### Modify common.py and add rpi5 platform class
 ```
 $ nano downloader/common.py
@@ -88,7 +93,7 @@ $ cd ./tappas
 $ ./install.sh --skip-hailort --target-platform rpi5
 ```
 
-Expected log message:
+The log message will be:
 ```
 Found ninja-1.10.2.git.kitware.jobserver-1 at /home/demo/hailo/tappas/hailo_tappas_venv/bin/ninja
 ninja: Entering directory `build.release'                                                           
@@ -98,14 +103,4 @@ Tappas was successfully installed.
     To start using it please set required environment variables, by running:
     source /home/demo/.hailo/tappas/tappas_env
 ```
-### Check PCIe interface
-```
-$ lspci
-```
-Expected log message:
-```
-0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
-0000:01:00.0 Co-processor: Hailo Technologies Ltd. Hailo-8 AI Processor (rev 01)
-0001:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
-0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
-```
+
