@@ -124,7 +124,6 @@ $ hailortcli fw-control identify
 ```
 
 The log message will be:
-Device Architectur: **HAILO-8L**
 ```
 Executing on device: 0000:01:00.0
 Identifying board
@@ -139,7 +138,7 @@ Product Name: HAILO-8L AI ACC M.2 B+M KEY MODULE EXT TMP
 ```
 
 ---
-### Set pcie to gen2/gen3(gen3 is faster than gen2):
+### Set pcie to gen2/gen3 (gen3 is faster than gen2):
 * Add following text to /boot/firmware/config.txt
 * If you want to use gen2, please comment **"dtparam=pciex1_gen=3"**
 ```
