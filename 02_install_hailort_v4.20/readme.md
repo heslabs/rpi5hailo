@@ -149,11 +149,15 @@ source hailo_platform_venv/bin/activate
 pip uninstall hailort
 ```
 
+---
 ### hailo-rpi5-examples
 ```
 $ cd ~/hailo-rpi5-example
 $ source ../hailort_4.20.0/hailo_platform_venv/bin/activate
 $ ./install.sh
+```
+Run the examples
+```
 $ source setup_env.sh
 $ python basic_pipelines/detection.py
 ```
