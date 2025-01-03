@@ -16,11 +16,10 @@ Rdference: Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines [[Gi
 ---
 <img src="https://github.com/user-attachments/assets/6652d300-4d99-4d98-a189-24e3ee471bfd" width=800>
 
-
 ---
-## Reference
-* How to Set Up Raspberry Pi 5 and Hailo [[Github]](https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/install-raspberry-pi5.md)
-
+## How to Set Up Raspberry Pi 5 and Hailo
+* https://github.com/hailo-ai/hailo-rpi5-examples/blob/main/doc/install-raspberry-pi5.md
+     
 ---
 ## Install Tapps
 Reference: https://wiki.seeedstudio.com/benchmark_of_multistream_inference_on_raspberrypi5_with_hailo8/
