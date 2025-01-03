@@ -12,6 +12,8 @@
   * https://community.hailo.ai/
 * HailoRT v4.19.0 - Installing HailoRT on Ubuntu
   * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#installation-on-ubuntu
+* Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
+  * https://github.com/hailo-ai/tappas
 
 ---
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
