@@ -12,6 +12,8 @@
   * https://community.hailo.ai/
 * HailoRT v4.19.0 - Installing HailoRT on Ubuntu
   * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#installation-on-ubuntu
+* HailoRT v4.20.0 documentation
+  * https://hailo.ai/developer-zone/documentation/hailort-v4-20-0/
 * Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
   * https://github.com/hailo-ai/tappas
 * Hailo RPi5 Basic Pipelines
