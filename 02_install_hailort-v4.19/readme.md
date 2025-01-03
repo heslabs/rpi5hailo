@@ -27,20 +27,7 @@ sudo apt full-upgrade
 ---
 <img src="https://github.com/user-attachments/assets/1f5dc008-6eda-4289-ad0d-5339f2e99fb8" width=800>
 
----
-#### Installation guide
-* HailoRT v4.19.0
-     * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
-
----
-#### Download packages
  
-| HailoRT Package | Version | Date | File |
-|:-|:-:|:-:|:-|
-| PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 | hailort-pcie-driver_4.19.0_all.deb |
-| Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 | hailort_4.19.0_arm64.deb |
-| Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 | hailort-4.19.0-cp311-cp311-linux_aarch64.whl |
-
 ---
 ## Installing HailoRT on Ubuntu
 The HailoRT Ubuntu offers several files, select the files according to your requirements:
@@ -51,6 +38,18 @@ The HailoRT Ubuntu offers several files, select the files according to your requ
    * hailort_<version>_arm64.deb – HailoRT for arm64
 * PyHailoRT for the the platform architecture and installed Python version 
    * hailort-<version>-cp311-cp311-linux_x86_64.whl – PyHailoRT for python3.11, x86_64
+
+---
+### Download packages
+ 
+| HailoRT Package | Version | Date | File |
+|:-|:-:|:-:|:-|
+| PCIe driver Ubuntu package (deb) | 4.19.0 | September 30, 2024 | hailort-pcie-driver_4.19.0_all.deb |
+| Ubuntu package (deb) for arm64 | 4.19.0 | September 30, 2024 | hailort_4.19.0_arm64.deb |
+| Python package (whl) for Python 3.11, aarch64 | 4.19.0 | September 30, 2024 | hailort-4.19.0-cp311-cp311-linux_aarch64.whl |
+
+* HailoRT v4.19.0 Installation guide
+      * https://hailo.ai/developer-zone/documentation/hailort-v4-19-0/?sp_referrer=install/install.html#ubuntu-installer-requirements
 
 ---
 ### 1. Install HailoRT PCIe driver and FW
