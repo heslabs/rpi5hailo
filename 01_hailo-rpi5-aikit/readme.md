@@ -7,7 +7,7 @@
 * 27W USB-C PD Power Supply Black - US Version (SKU 106990428) $12.00 [[SeeedStudio]](https://www.seeedstudio.com/27W-USB-C-PD-Power-Supply-Black-US-Version-p-5812.html)
 
 ---
-## PRI5/8GB + HAILO8L/13TOPS + SDCard/128GB
+## PRI5/8GB + HAILO8L/13TOPS + microSD/128GB
 
 | Product | Price (USD) | Qty | Subtotal | Price (NTD) |
 |:-|-:|:-:|-:|-:|
