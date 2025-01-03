@@ -1,6 +1,7 @@
 # Hailo TAPPAS 
 
-Rdference: Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines [[Github]](https://github.com/hailo-ai/tappas)
+Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
+https://github.com/hailo-ai/tappas
 
 <img src="https://github.com/user-attachments/assets/f3a46cdd-cf2e-44be-9475-f936050f4002" width=450>
 
