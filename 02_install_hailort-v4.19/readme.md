@@ -180,6 +180,19 @@ The log message will be:: RPI5 with **SSD** and Haili8L
 ---
 ### dpkg: error processing archive hailort-pcie-driver_4.19.0_all.deb
 
+```
+Preparing to unpack hailort-pcie-driver_4.19.0_all.deb ...
+Could not test for SecureBoot, assuming SecureBoot is disabled on this machine.
+Unpacking hailort-pcie-driver (4.19.0) ...
+dpkg: error processing archive hailort-pcie-driver_4.19.0_all.deb (--install):
+ trying to overwrite '/lib/firmware/hailo/hailo8_fw.4.19.0.bin', which is also in package hailofw 4.19.0-2
+Errors were encountered while processing:
+ hailort-pcie-driver_4.19.0_all.deb
+```
+
+---
+### dpkg: error processing archive hailort-pcie-driver_4.19.0_all.deb
+
 
 ```
 sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
