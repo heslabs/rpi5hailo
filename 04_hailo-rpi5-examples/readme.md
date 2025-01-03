@@ -18,6 +18,11 @@ $ source ../hailort_4.20.0/hailo_platform_venv/bin/activate
 $ source /home/demo/.hailo/tappas/tappas_env
 ```
 
+```
+$ virtualenv -p python3.11 hailo_tappas_venv
+$ source hailo_tappas_venv/bin/activate && 
+```
+
 ---
 #### Error message:
 ```
