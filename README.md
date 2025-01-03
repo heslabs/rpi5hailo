@@ -17,7 +17,7 @@
 * Hailo TAPPAS - Optimized Execution of Video-Processing Pipelines: 
   * https://github.com/hailo-ai/tappas
 * Hailo RPi5 Basic Pipelines
-  * Source: https://github.com/hailo-ai/hailo-rpi5-examples
+  * https://github.com/hailo-ai/hailo-rpi5-examples
 
 ---
 ## Prepare Hardware: Raspberry Pi 5 and Hailo 8L (13TOPS)
