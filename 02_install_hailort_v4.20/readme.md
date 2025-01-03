@@ -75,7 +75,8 @@ $ sudo dpkg --install hailort_4.20.0_arm64.deb
 $ sudo dpkg --install hailort_4.19.0_arm64.deb
 ```
 PC restart is required after driver installation.
-  
+
+---
 ### Validate device
 After boot, you can use the hailortcli tool and run hailortcli scan to validate that the device is identified:
 ```
@@ -86,7 +87,8 @@ The log message will be:
 Hailo Devices:
 [-] Device: 0000:04:00.0
 ```
- 
+
+---
 ### Identifying Device’s Serial Number
 Run the following command to obtain the serial number from the device:
 ```
