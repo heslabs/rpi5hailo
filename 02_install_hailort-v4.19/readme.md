@@ -48,7 +48,7 @@ File: hailort_4.19.0_arm64.deb
 $ sudo dpkg -i hailort_4.19.0_arm64.deb 
 $ sudo reboot
 ```
-Expected log message:
+The log message will be:
 ```
 Setting up hailort (4.19.0) ...
 Do you wish to activate hailort service? (required for most pyHailoRT use cases) [y/N]: y
@@ -64,7 +64,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/hailort.service → 
 $ sudo apt-get install dkms
 ```
 
-Expected log message:
+The log message will be:
 ```
 /etc/kernel/header_postinst.d/dkms:
 dkms: running auto installation service for kernel 6.1.0-28-arm64.
@@ -79,7 +79,7 @@ $ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb
 $ sudo reboot
 ```
 
-Expected log message:
+The log message will be:
 ```
 demo@rpi5:~/hailo$ sudo dpkg -i hailort-pcie-driver_4.19.0_all.deb 
 Selecting previously unselected package hailort-pcie-driver.
@@ -106,7 +106,7 @@ Downloaded File: hailort-4.19.0-cp311-cp311-linux_aarch64.whl
 ```
 $ pip install hailort-4.19.0-cp311-cp311-linux_aarch64.whl
 ```
-Expected log message:
+The log message will be:
 ```
 Successfully installed argcomplete-3.5.3 contextlib2-21.6.0 future-1.0.0 hailort-4.19.0 netaddr-1.3.0 netifaces-0.11.0 numpy-1.26.4 verboselogs-1.7
 ```
@@ -117,7 +117,7 @@ Successfully installed argcomplete-3.5.3 contextlib2-21.6.0 future-1.0.0 hailort
 $ hailortcli fw-control identify
 ```
 
-Expected log message: 
+The log message will be:
 Device Architectur: **HAILO-8L**
 ```
 Executing on device: 0000:01:00.0
@@ -148,7 +148,7 @@ dtparam=pciex1_gen=3
 ```
 $ lspci
 ```
-Expected log message: RPI5 with **SDCard** and Haili8L
+The log message will be: RPI5 with **SDCard** and Haili8L
 ```
 0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
 0000:01:00.0 Co-processor: Hailo Technologies Ltd. Hailo-8 AI Processor (rev 01)
@@ -156,7 +156,7 @@ Expected log message: RPI5 with **SDCard** and Haili8L
 0001:01:00.0 Ethernet controller: Raspberry Pi Ltd RP1 PCIe 2.0 South Bridge
 ```
 
-Expected log message: RPI5 with **SSD** and Haili8L
+The log message will be:: RPI5 with **SSD** and Haili8L
 ```
 0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
 0000:01:00.0 PCI bridge: ASMedia Technology Inc. ASM1182e 2-Port PCIe x1 Gen2 Packet Switch
