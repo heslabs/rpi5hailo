@@ -27,7 +27,7 @@ This installs the following dependencies:
 * Hailo kernel device driver and firmware
 * HailoRT middleware software
 * Hailo Tappas core post-processing libraries
-* The rpicam-apps Hailo post-processing software demo stages
+* rpicam-apps: Hailo post-processing software demo stages
 
 
 
