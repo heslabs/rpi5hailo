@@ -15,6 +15,7 @@ The Raspberry Pi 5 AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI acce
 
 ---
 ## Raspberry Pi 5
+Tech Spec: https://www.raspberrypi.com/products/raspberry-pi-5/
 * Broadcom **BCM2712** 2.4GHz quad-core 64-bit **Arm Cortex-A76** CPU, with cryptography extensions, 512KB per-core L2 caches and a 2MB shared L3 cache
 * VideoCore VII **GPU**, supporting OpenGL ES 3.1, Vulkan 1.2
 * **Dual 4Kp60 HDMI®** display output with HDR support, 4Kp60 HEVC decoder
