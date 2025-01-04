@@ -16,7 +16,9 @@ The Raspberry Pi AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI accele
 
 
 ---
-## Install the dependencies required to use the NPU. Run the following command from a terminal window:
+### Install the dependencies 
+
+Run the following command from a terminal window:
 ```
 $ sudo apt install hailo-all
 $ sudo apt remove hailo-all
@@ -30,7 +32,7 @@ This installs the following dependencies:
 
 
 ---
-## Validate device
+### Validate device
 ```
 $ hailortcli scan
 $ hailortcli fw-control identify
