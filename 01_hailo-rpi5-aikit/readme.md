@@ -32,7 +32,7 @@
 |:-|-:|:-:|-:|-:|
 | Raspberry Pi 5 8GB | 77.5 | 1 | 77.5 | 2,480 |
 | Raspberry Pi AI Kit | 70.0 | 1 | 70.0 | 2,240 |
-| M.2 PCIe Gen3 SSD 512GB (1700MB/s)  | 28.0  | 1 | 28.0  | 872 |
+| M.2 SSD 512GB (1700MB/s) | 28.0  | 1 | 28.0  | 872 |
 | 27W USB-C power supply | 12.0 | 1 | 12.0 | 384 |
 | Subtotal ||| 187.5 | 5,976 | 
 
