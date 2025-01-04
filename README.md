@@ -51,8 +51,6 @@ Part Number: HM21LB1C2LAE
 Product Name: HAILO-8L AI ACC M.2 B+M KEY MODULE EXT TMP
 ```
 
----
-### Check PCIe interface - Hailo-8 AI Processor
 ```
 $ lspci
 0000:00:00.0 PCI bridge: Broadcom Inc. and subsidiaries BCM2712 PCIe Bridge (rev 21)
@@ -103,7 +101,7 @@ $ python basic_pipelines/detection.py --input /dev/video0
 
 ---
 <img src="https://github.com/user-attachments/assets/302bc752-8eaf-4949-9307-cd2eee852d6a" width=450>
-
+<img src="https://github.com/user-attachments/assets/949b412f-0974-4877-886e-9408dd305951" width=350>
 
 ---
 ### Pose Estimation Example
@@ -126,6 +124,7 @@ $ python basic_pipelines/pose_estimation.py --help
 
 ---
 <img src="https://github.com/user-attachments/assets/2f5edc26-8755-4cac-be16-02550d535664" width=450>
+<img src="https://github.com/user-attachments/assets/949b412f-0974-4877-886e-9408dd305951" width=350>
 
 ---
 ### Instance Segmentation Example
@@ -142,9 +141,7 @@ $ python basic_pipelines/instance_segmentation.py --help
 
 ---
 <img src="https://github.com/user-attachments/assets/bf88d093-2b67-4215-8b3e-f07afd2d074a" width=450>
-
----
-<img src="https://github.com/user-attachments/assets/949b412f-0974-4877-886e-9408dd305951" width=450>
+<img src="https://github.com/user-attachments/assets/949b412f-0974-4877-886e-9408dd305951" width=350>
 
 ---
 ## Resource
