@@ -52,4 +52,4 @@
 <img src="https://github.com/user-attachments/assets/8ba5d781-40ca-4081-bd9e-35c651304c7c" width=600>
 
 ---
-<img src="https://github.com/user-attachments/assets/38e3023a-ebb5-4d13-afd7-ce9e674d25ab" width=700>
+<img src="https://github.com/user-attachments/assets/38e3023a-ebb5-4d13-afd7-ce9e674d25ab" width=750>
