@@ -13,7 +13,19 @@ The Raspberry Pi 5 AI Kit bundles the Raspberry Pi M.2 HAT+ with a Hailo AI acce
 <img src="https://github.com/user-attachments/assets/55673538-d651-4ae7-afd6-07d2f5588eef" width=300>
 <img src="https://github.com/user-attachments/assets/e4333ba6-222d-4a44-b167-2a43a7617929" width=450>
 
-
+---
+## Raspberry Pi 5
+* Broadcom **BCM2712** 2.4GHz quad-core 64-bit **Arm Cortex-A76** CPU, with cryptography extensions, 512KB per-core L2 caches and a 2MB shared L3 cache
+* VideoCore VII **GPU**, supporting OpenGL ES 3.1, Vulkan 1.2
+* **Dual 4Kp60 HDMI®** display output with HDR support, 4Kp60 HEVC decoder
+* LPDDR4X-4267 SDRAM (2GB, 4GB, and **8GB**)
+* Dual-band 802.11ac **Wi-Fi®**, Bluetooth 5.0 / Bluetooth Low Energy (BLE)
+* microSD card slot, with support for high-speed SDR104 mode
+* 2 × **USB 3.0** ports, 2 × USB 2.0 ports
+* Gigabit Ethernet, with PoE+ support (requires separate PoE+ HAT)
+* 2 × 4-lane **MIPI camera**/display transceivers
+* **PCIe 2.0** x1 interface for fast peripherals (requires separate **M.2 HAT** or other adapter)
+* 5V/5A DC power via **USB-C**, with Power Delivery support
 
 ---
 ### Install the dependencies 
